@@ -1,0 +1,730 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+*, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Open Sans;
+}
+
+
+/* For Desktop Screens */
+.container {
+    width: 1100px;
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  /* For Tablet Screens */
+  @media only screen and (max-width: 1224px) {
+    .container {
+      width: 89%; /* Adjust the percentage value as needed */
+      margin: 0 auto; /* Center the container horizontally */
+    }
+  }
+
+  @media only screen and (max-width: 800px){
+   .container{
+    width: 90%;
+   }
+  }
+
+
+  
+  @media only screen and (max-width: 600px){
+    .container{
+     width: 95%;
+    }
+   }
+
+   .links{
+    display: flex;
+    gap: 30px;
+   }
+
+   header{
+    width: 100%;
+
+   }
+
+   header a {
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color:  #3734A9;
+text-decoration: none;
+transition: 0.5s;
+border-bottom: 2px solid transparent;
+padding: 4px;
+   }
+   header a:hover{
+    border-bottom: 2px solid #3734A9;
+   }
+   header .container{
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   }
+
+   header .logo img{
+    width: 201px;
+    object-fit: contain;
+    height: 40px;
+   }
+
+   header{
+    padding: 10px;
+    position: fixed;
+    height: fit-content;
+    width: 100%;
+   }
+
+   .getstarted{
+    font-family: Open Sans;
+    font-family: Jost;
+font-size: 17px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+    text-align: center;
+    color:  #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: 0.5s;
+    border: 1px solid #3734A9;
+    background-color: #3734A9;
+    cursor: pointer;
+}
+.getstarted:hover{
+    background: rgba(255, 255, 255, 0.4);
+    color: #3734A9;
+}
+
+
+.fashionhero{
+    height: 100vh;
+    background-image: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%) ;
+    width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.fashionhero .container{
+    height: 100%;
+}
+
+.heroflex{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-top: 40px;
+}
+
+.fashionone{
+    width: 100%;
+} 
+
+.fashiontwo{
+    width: 80%;
+}
+
+.fashionone{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+
+
+.fashionheader{
+    background: rgba(255, 255, 255, 0.4);
+border-radius: 20px;
+width: fit-content;
+padding: 25px;
+display: flex;
+gap: 20px;
+}
+.fashiontitle span{
+    color: #3734A9;
+    font-family: Open Sans;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    
+
+}
+
+.forall{
+
+
+font-family: Open Sans;
+font-size: 17px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: #5B5B5B;
+}
+.shopcollection{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.hvb{
+    height: 58px;
+width: 255px;
+text-align: center;
+border-radius: 10px;
+background: #3734A9;
+border: 1px solid #3734A9;
+
+transition: 0.5s;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+font-family: Open Sans;
+font-size: 17px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: -0.02em;
+text-align: center;
+
+}
+
+.fashiontwo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-image: url('img/Vector\ 4.png'), url('img/Vector\ 332.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+    height: 100%;
+}
+
+.fashiontwo img{
+    width: 100%;
+    height: 100%;
+}
+
+.imageboxone{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.guidebox{
+    position: absolute;
+    top: 78%;
+}
+.imageboxtwo{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageboxone img{
+height: 
+
+490.74px;
+object-fit: cover;
+width: 100%;
+border-radius: 30px;
+
+
+}
+
+.imageboxtwo img{
+height: 
+
+333.65px
+;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 30px;
+    
+    
+    }
+.hvb:hover{
+    background: #0e0c55;
+    cursor: pointer;
+}
+.forall span{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.flexcont{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #757095;
+}
+
+
+.checks{
+    width: 30px;
+    background: #3734A9;
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+
+.checks ion-icon {
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: 900;
+}
+
+.fashiontitle{
+    margin-top: 5px;
+    font-family: Open Sans;
+font-size: 60px;
+font-weight: 300;
+line-height: 75px;
+letter-spacing: -0.03em;
+text-align: left;
+color: #000;
+}
+
+.guidebox{
+    
+background: rgba(255, 255, 255, 0.44);
+backdrop-filter: blur(5.5px);
+/* Note: backdrop-filter has minimal browser support */
+padding: 13px;
+border-radius: 8px;
+display: flex;
+gap: 10px;
+}
+
+.guidebox .imgbox{
+    width: fit-content;
+    height: 80px;
+    object-fit: contain;
+}
+
+.imgbox img{
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+.navbar-scrolled{
+    background: rgba(255, 255, 255, 0.44);
+    backdrop-filter: blur(5.5px); 
+}
+
+::-webkit-scrollbar {
+    width: var(--scrollbar-width, 2px); /* Adjust the width as needed */
+  }
+  
+  /* Set the appearance of the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-color, #888); /* Adjust the color as needed */
+  }
+  
+  /* Set the appearance of the scrollbar track */
+  ::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-track-color, #f1f1f1); /* Adjust the color as needed */
+  }
+
+  .brandsbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    background: #EBFAFF;
+    margin-top: -13px;
+    margin-bottom: 60px;
+  }
+
+  .brandboxtext span{
+    font-family: Open Sans;
+font-size: 36px;
+font-weight: 800;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: center;
+color: #3734A9;
+
+  }
+
+  .brandboxtext{
+    color: #000000;
+    font-family: Open Sans;
+font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+
+  }
+
+  .marqcont{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+  }
+
+  .marqcont img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+
+  .featuredstore{
+    margin-top: 90px;
+  }
+
+.featuredstore h1 {
+
+    text-align: center;
+    width: 100%;
+    font-family: Open Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: -0.03em;
+text-align: center;
+margin-bottom: 50px;
+
+} 
+
+
+.ftitle{
+    font-family: Open Sans;
+font-size: 24px;
+font-weight: 900;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+color: 
+#3734A9;
+}
+.featuredheader{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.featuredheader select{
+     background-color: white;
+     color: black;
+     padding: 10px;
+     border-radius: 6px;
+     border: 1px solid#3734A9;
+     color: #0e0c55;
+     font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.featureflex{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.featurefilter{
+    width: 25%;
+    position: sticky;
+    padding: 20px;
+    top: 10%;
+    height: fit-content;
+   
+}
+
+.featureproducts{
+  
+    width: 100%;
+    padding: 7px;
+}
+
+.productgrid{
+    margin-top: 40px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-gap: 20px;
+    grid-auto-rows: 1fr;
+}
+
+.filtercontent{
+    margin-top: 40px;
+    background: #F9F9F9;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.productcard{
+    box-shadow: 0px 4px 28px -2px #00000014;
+background-color: #FDFDFD;
+padding: 10px;
+display: flex;
+flex-direction: column;
+gap: 5px;
+height: 100%;
+border-radius: 8px;
+transition: 0.5s;
+}
+
+.productcard:hover{
+    box-shadow:  20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+}
+
+.imageblock{
+    width: 100%;
+    height: 254px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.imageblock img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.titleblock{
+    padding: 5px;
+    font-family: Open Sans;
+font-size: 15px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #00171F;
+}
+
+.specs{
+    padding: 5px;
+    display: flex;
+    gap: 13px;
+    flex-wrap: wrap;
+}
+
+.cart{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartbox{
+    margin-top: -20px;
+    width: 43px;
+    height: 43px;
+    border-radius: 13px;
+    font-size: 24px;
+border: 1px solid #3734A9;
+    color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3734A9;
+transition: 0.5s;
+cursor: pointer;
+}
+.featuredstore{
+    width: 100%;
+}
+.cartbox:hover{
+    background-color: white;
+    color: black;
+}
+.spectvalue{
+    width: 70px;
+}
+.spectitle{
+    font-family: Open Sans;
+font-size: 13px;
+font-style: italic;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #667479;
+}
+
+.specval{
+    font-family: Open Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #667479;
+}
+
+@media screen and (max-width:1110px) {
+    .heroflex{
+        flex-direction: column;
+    }
+    .imageboxone img{
+        height: 100%;
+    }
+    .imageboxtwo img{
+        height: 100%;
+    }
+    .fashionhero{
+        height: 100%;
+    }
+    .fashionone, .fashiontwo{
+        align-items: center;
+        width: 100%;
+    }
+
+    .fashionone{
+        margin-top: 90px;
+        margin-bottom: 70px;
+        text-align: center;
+    }
+
+    .fashiontitle{
+        text-align: center;
+
+            font-size: 40px;
+            font-weight: 300;
+            line-height: 50px;
+    
+    }
+    .fashiontitle span{
+        margin-top: 10px;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .featureflex{
+        flex-direction: column;
+    }
+    .fashiontwo{
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media screen and (max-width:700px) {
+    .brandsbox{
+        margin-top: 20px;
+        width: 97%;
+    }
+
+    .links{
+   display: none;
+    }
+    .imageblock img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .fashionheader{
+        flex-direction: column;
+        width: fit-content;
+    }
+    .guidebox {
+        position: absolute;
+        top: 106%;
+    }
+}
+
+.custom-checkbox-label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .custom-checkbox-label::after {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 3px;
+    border-radius: 2px;
+    background-color: #0e0c55;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  
+  .custom-checkbox:checked + .custom-checkbox-label::after {
+    opacity: 1;
+  }
+  
+  .visually-hidden {
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
+
+  .checkflex{
+    display: flex;
+  }
