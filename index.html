@@ -24,6 +24,12 @@
 
 <div class="getstarted">Get Started</div>
             </div>
+
+            <div class="togglebuton">
+                <div class="togbtn">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+            </div>
         </div>
      
     </header>
@@ -119,132 +125,149 @@
     <div class="featuredheader">
         <div class="ftitle">Filter  </div>
  
-    
+    <div class="featuretoggle">
+        <div class="togbtn" onclick="revealDiv()">
+            <ion-icon name="options-outline"></ion-icon>
+        </div>
+    </div>
+            </div>
+<div class="allfeatureslider">
+    <div class="filtercontent">
+               
+        <div class="gridfeature">
+            <div class="filtertitle">
+                Gender
             </div>
 
-            <div class="filtercontent">
-               
-                <div class="filtertitle">
-                    Gender
+            <div class="checkflex">
+                <div class="checkbox">
+                    <input type="checkbox" name="gender" value="adult" checked id="myCheckbox" class="custom-checkbox visually-hidden">
+                    <label for="myCheckbox" class="custom-checkbox-label"></label>
                 </div>
+                <div class="checktitle">
+                    Adult
+                </div>
+            </div>
+     
+            <div class="checkflex">
+                <div class="checkbox">
+                    <input type="checkbox" name="gender" value="children" checked id="myCheckbox2" class="custom-checkbox visually-hidden">
+                    <label for="myCheckbox2" class="custom-checkbox-label"></label>
+                </div>
+                <div class="checktitle">
+                    Children
+                </div>
+            </div>
 
-                <div class="checkflex">
-                    <div class="checkbox">
-                        <input type="checkbox" name="gender" value="adult" checked id="myCheckbox" class="custom-checkbox visually-hidden">
-                        <label for="myCheckbox" class="custom-checkbox-label"></label>
-                    </div>
-                    <div class="checktitle">
-                        Adult
-                    </div>
-                </div>
-         
-                <div class="checkflex">
-                    <div class="checkbox">
-                        <input type="checkbox" name="gender" value="children" checked id="myCheckbox2" class="custom-checkbox visually-hidden">
-                        <label for="myCheckbox2" class="custom-checkbox-label"></label>
-                    </div>
-                    <div class="checktitle">
-                        Children
-                    </div>
-                </div>
+            <br>
+        </div>
 
-                <br>
-                <div class="filtertitle">
-                    Size
-                </div>
 
-                <div class="checkflex">
-                    <div class="checkbox">
-                        <input type="checkbox" name="size" value="small" id="myCheckbox4" class="custom-checkbox visually-hidden" checked>
-                        <label for="myCheckbox4" class="custom-checkbox-label"></label>
-                    </div>
-                    <div class="checktitle">
-                        Small
-                    </div>
-                </div>
+        <div class="gridfeature">
+<div class="filtertitle">
+Size
+</div>
 
-                <div class="checkflex">
-                    <div class="checkbox">
-                        <input type="checkbox" name="size" value="medium" id="myCheckbox3" class="custom-checkbox visually-hidden">
-                        <label for="myCheckbox3" class="custom-checkbox-label"></label>
-                    </div>
-                    <div class="checktitle">
-                        Medium
-                    </div>
-                </div>
+<div class="checkflex">
+<div class="checkbox">
+    <input type="checkbox" name="size" value="small" id="myCheckbox4" class="custom-checkbox visually-hidden" checked>
+    <label for="myCheckbox4" class="custom-checkbox-label"></label>
+</div>
+<div class="checktitle">
+    Small
+</div>
+</div>
 
-                
-                <div class="checkflex">
-                    <div class="checkbox">
-                        <input type="checkbox" name="size" value="large" id="myCheckbox8" class="custom-checkbox visually-hidden">
-                        <label for="myCheckbox8" class="custom-checkbox-label"></label>
-                    </div>
-                    <div class="checktitle">
-                        Large
-                    </div>
-                </div>
+<div class="checkflex">
+<div class="checkbox">
+    <input type="checkbox" name="size" value="medium" id="myCheckbox3" class="custom-checkbox visually-hidden">
+    <label for="myCheckbox3" class="custom-checkbox-label"></label>
+</div>
+<div class="checktitle">
+    Medium
+</div>
+</div>
+
+
+<div class="checkflex">
+<div class="checkbox">
+    <input type="checkbox" name="size" value="large" id="myCheckbox8" class="custom-checkbox visually-hidden">
+    <label for="myCheckbox8" class="custom-checkbox-label"></label>
+</div>
+<div class="checktitle">
+    Large
+</div>
+</div>
 <br>
+</div>
 
+<div class="gridfeature">
 
 <div class="filtertitle">
-    Quality
+Quality
 </div>
 
 <div class="checkflex">
-    <div class="checkbox">
-        <input type="checkbox" name="quality" value="good" id="myCheckbox41" class="custom-checkbox visually-hidden" checked>
-        <label for="myCheckbox41" class="custom-checkbox-label"></label>
-    </div>
-    <div class="checktitle">
-        Good
-    </div>
+<div class="checkbox">
+    <input type="checkbox" name="quality" value="good" id="myCheckbox41" class="custom-checkbox visually-hidden" checked>
+    <label for="myCheckbox41" class="custom-checkbox-label"></label>
+</div>
+<div class="checktitle">
+    Good
+</div>
 </div>
 
 <div class="checkflex">
-    <div class="checkbox">
-        <input type="checkbox" name="quality" value="average" id="myCheckbox42" class="custom-checkbox visually-hidden">
-        <label for="myCheckbox42" class="custom-checkbox-label"></label>
-    </div>
-    <div class="checktitle">
-        Avegrage
-    </div>
+<div class="checkbox">
+    <input type="checkbox" name="quality" value="average" id="myCheckbox42" class="custom-checkbox visually-hidden">
+    <label for="myCheckbox42" class="custom-checkbox-label"></label>
+</div>
+<div class="checktitle">
+    Avegrage
+</div>
 </div>
 
 
 <div class="checkflex">
-    <div class="checkbox">
-        <input type="checkbox" name="quality" value="poor" id="myCheckbox48" class="custom-checkbox visually-hidden">
-        <label for="myCheckbox48" class="custom-checkbox-label"></label>
-    </div>
-    <div class="checktitle">
-        Poor
-    </div>
+<div class="checkbox">
+    <input type="checkbox" name="quality" value="poor" id="myCheckbox48" class="custom-checkbox visually-hidden">
+    <label for="myCheckbox48" class="custom-checkbox-label"></label>
+</div>
+<div class="checktitle">
+    Poor
+</div>
 </div>
 <br>
-
-
-
-
-                <div class="filtertitle">
-                    Price Filter
-                </div>
-                <br>
-<div class="minmax">
-    <div class="min">
-        <input type="number" placeholder="Min" name="min-price">
-    </div>
-    <div class="max">
-        <input type="number" name="max-price" placeholder="Max" value="9000000000000">
-
-    </div>
 </div>
-       <br>  
-
-<button onclick="filterProducts()"  class="getstarted" style="width: 100%;" >Search</button>
-            </div>
 
 
-            
+
+<div class="gridfeature">
+
+<div class="filtertitle">
+Price Filter
+</div>
+<br>
+<div class="minmax">
+<div class="min">
+<input type="number" placeholder="Min" name="min-price">
+</div>
+<div class="max">
+<input type="number" name="max-price" placeholder="Max" value="9000000000000">
+
+</div>
+</div>
+<br>  
+</div>
+
+
+
+    </div>
+    <button onclick="filterProducts()"  class="getstarted" style="width: 100%;" >Search</button>
+
+    
+</div>
+           
             
             
 
@@ -304,9 +327,7 @@
         </div>
         <div class="sidetwobtn">
           <button class="getstarted"> Shop collections 
-            <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M11.0426 0.980486C11.0424 0.980447 11.0422 0.980373 11.042 0.980348L7.30289 0.312031C7.02278 0.261969 6.76444 0.450768 6.72588 0.733816C6.68733 1.01683 6.88317 1.28685 7.1633 1.33693L9.67369 1.7856L1.01744 8.07993C0.791694 8.24408 0.746741 8.56839 0.917034 8.80432C1.08733 9.04025 1.40836 9.09843 1.63411 8.93428L10.2903 2.63997L9.93289 5.17397C9.89301 5.45674 10.0876 5.72766 10.3676 5.77908C10.6476 5.83053 10.9068 5.64291 10.9467 5.3602L11.4791 1.5859C11.4791 1.58568 11.4791 1.58546 11.4792 1.58522C11.5187 1.30184 11.3224 1.03087 11.0426 0.980486Z" fill="white"/>
-            </svg>
+       
             </button> 
         </div>
     </div>

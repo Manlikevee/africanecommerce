@@ -72,7 +72,7 @@ padding: 4px;
    }
 
    header .logo img{
-    width: 201px;
+    width: 100%;
     object-fit: contain;
     height: 40px;
    }
@@ -661,10 +661,30 @@ color: #667479;
         line-height: 50px;
     }
 }
-
+.allfeatureslider{
+    width: 100%;
+}
 @media screen and (max-width: 1000px) {
     .featureflex{
         flex-direction: column;
+    }
+    .allfeatureslider{
+     margin-top: 20px;
+        width: 100%;
+    }
+
+    .guidebox{
+        display: none;
+    }
+
+    .filtercontent{
+        display: grid;
+        display: grid;
+        align-items: flex-start;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 10px;
+        grid-auto-rows: 1fr;
+
     }
     .featurefilter{
         position: relative;
@@ -675,15 +695,42 @@ color: #667479;
     }
     
 }
+.togglebuton{
+    display: none;
+}
+.logo{
+    display: flex;
+}
 
+.togbtn{
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3734A9;
+    color: white;
+    border-radius: 6px;
+    font-size: 19px;
+    cursor: pointer;
+}
 @media screen and (max-width:700px) {
     .brandsbox{
         margin-top: 20px;
         width: 97%;
     }
+    .imageblock{
+        height: 310px;
+    }
 
     .links{
    display: none;
+    }
+    .cartbuttons{
+        display: none;
+    }
+
+    .togglebuton{
+        display: block;
     }
     .imageblock img {
         width: 100%;
@@ -1064,16 +1111,62 @@ letter-spacing: 0.16px;
     .sidetwobtn button{
         background-color: white;
         color: #0e0c55;
+        padding: 23px;
+
+    }
+    .sidetwobtn  ion-icon{
+        background-color: white;
+        color: #0e0c55;
+        padding: 23px;
 
     }
     .sidetwobody{
         width: 100%;
     }
   }
-
+  .featuretoggle{
+    display: none;
+  }
+  .allfeatureslider{
+    display: block;
+    animation: slideDown 0.5s ease-out;    
+}
+.showz{
+    display: none;
+    animation: slideDown 0.5s ease-out;   
+}
   @media screen and (max-width:1000px) {
     .slidinggrid{
     grid-gap:40px;
+    }
+    .featuredstore h1{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 50px
+    }
+
+    .featuretoggle{
+        display: block;
+    }
+
+    .allfeatureslider{
+        display: none;
+        animation: slideDown 0.3s ease-out;    
+    }
+.showz{
+    display: block;
+    animation: slideDown 0.7s ease-out;   
+}
+    @keyframes slideDown {
+        from {
+          transform: translateY(-30%);
+        }
+        to {
+          transform: translateY(0);
+        }
+      }
+    .featureproducts{
+        margin-top: 40px;
     }
     
   }
@@ -1084,6 +1177,9 @@ letter-spacing: 0.16px;
     .slidinggrid{
     grid-gap:40px;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));    
+}
+.banner{
+    margin-bottom: 20px;
 }
 .whatwedobox{
     background-image: none;
@@ -1104,7 +1200,7 @@ letter-spacing: 0.16px;
     grid-gap: 50px;
 }
 header .logo img {
-    width: 170px;
+    width: 100%;
     object-fit: contain;
     height: 34px;
 }

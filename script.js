@@ -292,3 +292,21 @@ return card;
 }
 // Initialize the product listing
 initializeProductListing();
+
+
+
+function revealDiv() {
+  var element = document.querySelector('.allfeatureslider');
+if (element.style.display === 'block') {
+  element.style.display = 'none';
+} else {
+  element.style.display = 'block';
+}
+}
+
+window.addEventListener('load', function() {
+  var element = document.querySelector('.allfeatureslider');
+  if (window.innerWidth >= 1000) {
+    element.style.display = 'block';
+  }
+});
