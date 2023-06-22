@@ -95,7 +95,7 @@ text-align: left;
     text-align: center;
     color:  #fff;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius:5px;
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 5px;
@@ -354,6 +354,7 @@ gap: 10px;
 
 
 .navbar-scrolled{
+    z-index: 9999999999999999999999999999999999;
     background: rgba(255, 255, 255, 0.44);
     backdrop-filter: blur(5.5px); 
 }
@@ -483,7 +484,7 @@ text-align: left;
     width: 25%;
     position: sticky;
     padding: 20px;
-    top: 10%;
+    top: 1%;
     height: fit-content;
    
 }
@@ -504,11 +505,21 @@ text-align: left;
 }
 
 .filtercontent{
-    margin-top: 40px;
-    background: #F9F9F9;
+    margin-top: 10px;
+    
     padding: 10px;
     width: 100%;
 
+}
+
+.filtertitle{
+    font-family: Open Sans;
+font-size: 17px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #00171F;
 }
 
 .productcard{
@@ -517,7 +528,7 @@ background-color: #FDFDFD;
 padding: 10px;
 display: flex;
 flex-direction: column;
-gap: 5px;
+gap: 1px;
 height: 100%;
 border-radius: 8px;
 transition: 0.5s;
@@ -655,6 +666,10 @@ color: #667479;
     .featureflex{
         flex-direction: column;
     }
+    .featurefilter{
+        position: relative;
+        width: 100%;
+    }
     .fashiontwo{
         margin-bottom: 30px;
     }
@@ -727,4 +742,353 @@ color: #667479;
 
   .checkflex{
     display: flex;
+    width: 100%;
+    margin-top: 3px;
+    gap: 10px;
+    align-items: center;
+ 
+  }
+
+  .checktitle{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00171F;
+    margin-top: -4px;
+  }
+
+  .minmax{
+    display: flex;
+    margin-top: 4px;
+    
+  }
+
+  .min input{
+    padding: 4px;
+    width: 100%;
+    border:none ;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+
+  .max input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding: 4px;
+  }
+
+  .pageblock{
+    margin-top: 9px;
+    justify-content: space-between;
+    display: flex;
+    align-self: flex-end;
+    margin-left: auto;
+    width: 100%;
+  }
+
+  .pagination{
+    display: flex;
+  
+    gap: 3px;
+    margin-top: 30px;
+
+
+  }
+
+  .pagination button{
+    font-family: Open Sans;
+font-size: 15px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+border: none;
+background-color: transparent;
+padding: 6px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 34px;
+width: 34px;
+
+
+border-radius: 6px;
+}
+
+  .pagination .active{
+    color: white;
+background-color: #0e0c55;
+border-radius: 6px;
+
+
+
+  }
+
+
+  .banner{
+    margin-top: 90px;
+    width: 100%;
+    height: 100%;
+
+    background: #3734A9;
+    background-image: url('img/Vector\ 4.png');
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+display: flex;
+gap: 20px;
+justify-content: center;
+border-radius: 20px;
+margin-bottom: 70px;
+  }
+
+  .sideone{
+width: 100%;
+overflow: hidden;
+background-image: url('img/cover.png');
+background-size: contain;
+background-position: bottom;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+
+  .sideimgbo{
+    padding: 10px;
+  }
+  .sideone img{
+    Width:100%;
+    Height:288.84px;
+    object-fit: contain;
+  }
+
+  .sidetwo{
+width: 100%;
+background-image: url('img/cvr.png');
+background-position: right;
+background-size: contain;
+background-repeat: no-repeat;
+  }
+
+  .sidetwocontent{
+    width: 80%;
+    margin-left: auto;
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sidetwohead{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: Open Sans;
+font-size: 35px;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: center;
+color: 
+#3734A9;
+  }
+
+  .sidetwohead div{
+    font-family: Open Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+
+  .sidetwobody{
+    width: 80%;
+    padding: 20px;
+    font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+
+  }
+
+.whatwedo{
+    margin-top: 90px;
+    padding: 20px;
+    width: 100%;
+    background-image: url('img/Rectangle\ 162.png'), url('img/Rectangle\ 163.png');
+    margin-bottom: 40px;
+    background-position: bottom left , top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.whatwedobox{
+    width: 95%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 114px 0px #00000017;
+
+}
+
+.slidehead{
+    color: #000;
+font-size: 18px;
+font-family: Open Sans;
+font-weight: 600;
+letter-spacing: 0.25px;
+margin-bottom: 5px;
+}
+
+#downloadBar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999; /* Make sure it's above other elements */
+}
+
+
+
+
+
+
+
+
+.slidinggrid{
+    display: grid;
+   grid-gap: 50px; 
+   display: grid;
+   align-items: center;
+   grid-template-columns: repeat(auto-fill, minmax(440px, 1fr));
+   grid-gap: 20px;
+   grid-auto-rows: 1fr;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.slideicon{
+    width: 17%;
+}
+
+.line{
+    margin: auto;
+    width: 88%;
+    height: 1px;
+    background: #D2D2D2;
+    margin-block: 7px;
+}
+
+.roundmg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    background: #FFF3E8;
+    border-radius: 10px;
+}
+.se{
+    background-color: #F1F0FF;
+}
+.xa{
+    background-color: #E2F3FF;
+}
+
+.gr{
+    background-color: #EDFFE7;
+}
+.roundmg img{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+.slidetext{
+    width: 100%;
+}
+.slide{
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+.slidebod{
+    color: #797979;
+font-size: 15px;
+font-family: Open Sans;
+line-height: 127.9%;
+letter-spacing: 0.16px;
+}
+  @media screen and (max-width:1216px) {
+    .sidetwocontent{
+        width: 90%;
+    }
+
+    .banner{
+        flex-direction: column;
+        background-image: none;
+        padding: 10px;
+    }
+
+    .sideone{
+        background-image: none;
+    }
+    .sidetwo{
+        background-image: none;
+    }
+    .sidetwohead div{
+        text-align: center;
+    }
+    .sidetwocontent{
+        width: 100%;
+        color: white;
+    }
+    .sidetwohead{
+        color: white;
+    }
+    .sidetwobtn button{
+        background-color: white;
+        color: #0e0c55;
+
+    }
+    .sidetwobody{
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width:1000px) {
+    .slidinggrid{
+    grid-gap:40px;
+    }
+    
+  }
+
+
+  
+  @media screen and (max-width:600px) {
+    .slidinggrid{
+    grid-gap:40px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));    
+}
+.whatwedobox{
+    background-image: none;
+    margin-top: 5px;
+    width: 100%;
+}
+    
   }

@@ -114,14 +114,14 @@
         Our featured store
     </h1>
 
-<div class="featureflex">
-<div class="featurefilter">
+<div class="featureflex filters">
+<div class="featurefilter " >
     <div class="featuredheader">
         <div class="ftitle">Filter  </div>
  
     
             </div>
-<br>
+
             <div class="filtercontent">
                
                 <div class="filtertitle">
@@ -130,15 +130,125 @@
 
                 <div class="checkflex">
                     <div class="checkbox">
-                        <input type="checkbox" id="myCheckbox" class="custom-checkbox visually-hidden">
+                        <input type="checkbox" name="gender" value="adult" checked id="myCheckbox" class="custom-checkbox visually-hidden">
                         <label for="myCheckbox" class="custom-checkbox-label"></label>
                     </div>
                     <div class="checktitle">
-                        Female
+                        Adult
                     </div>
                 </div>
          
+                <div class="checkflex">
+                    <div class="checkbox">
+                        <input type="checkbox" name="gender" value="children" checked id="myCheckbox2" class="custom-checkbox visually-hidden">
+                        <label for="myCheckbox2" class="custom-checkbox-label"></label>
+                    </div>
+                    <div class="checktitle">
+                        Children
+                    </div>
+                </div>
+
+                <br>
+                <div class="filtertitle">
+                    Size
+                </div>
+
+                <div class="checkflex">
+                    <div class="checkbox">
+                        <input type="checkbox" name="size" value="small" id="myCheckbox4" class="custom-checkbox visually-hidden" checked>
+                        <label for="myCheckbox4" class="custom-checkbox-label"></label>
+                    </div>
+                    <div class="checktitle">
+                        Small
+                    </div>
+                </div>
+
+                <div class="checkflex">
+                    <div class="checkbox">
+                        <input type="checkbox" name="size" value="medium" id="myCheckbox3" class="custom-checkbox visually-hidden">
+                        <label for="myCheckbox3" class="custom-checkbox-label"></label>
+                    </div>
+                    <div class="checktitle">
+                        Medium
+                    </div>
+                </div>
+
+                
+                <div class="checkflex">
+                    <div class="checkbox">
+                        <input type="checkbox" name="size" value="large" id="myCheckbox8" class="custom-checkbox visually-hidden">
+                        <label for="myCheckbox8" class="custom-checkbox-label"></label>
+                    </div>
+                    <div class="checktitle">
+                        Large
+                    </div>
+                </div>
+<br>
+
+
+<div class="filtertitle">
+    Quality
+</div>
+
+<div class="checkflex">
+    <div class="checkbox">
+        <input type="checkbox" name="quality" value="good" id="myCheckbox41" class="custom-checkbox visually-hidden" checked>
+        <label for="myCheckbox41" class="custom-checkbox-label"></label>
+    </div>
+    <div class="checktitle">
+        Good
+    </div>
+</div>
+
+<div class="checkflex">
+    <div class="checkbox">
+        <input type="checkbox" name="quality" value="average" id="myCheckbox42" class="custom-checkbox visually-hidden">
+        <label for="myCheckbox42" class="custom-checkbox-label"></label>
+    </div>
+    <div class="checktitle">
+        Avegrage
+    </div>
+</div>
+
+
+<div class="checkflex">
+    <div class="checkbox">
+        <input type="checkbox" name="quality" value="poor" id="myCheckbox48" class="custom-checkbox visually-hidden">
+        <label for="myCheckbox48" class="custom-checkbox-label"></label>
+    </div>
+    <div class="checktitle">
+        Poor
+    </div>
+</div>
+<br>
+
+
+
+
+                <div class="filtertitle">
+                    Price Filter
+                </div>
+                <br>
+<div class="minmax">
+    <div class="min">
+        <input type="number" placeholder="Min" name="min-price">
+    </div>
+    <div class="max">
+        <input type="number" name="max-price" placeholder="Max" value="9000000000000">
+
+    </div>
+</div>
+       <br>  
+
+<button onclick="filterProducts()"  class="getstarted" style="width: 100%;" >Search</button>
             </div>
+
+
+            
+            
+            
+
+            
 </div>
 <div class="featureproducts">
     <div class="featuredheader">
@@ -151,183 +261,132 @@
     </div>
 
 
-    <div class="productgrid">
+    <div class="productgrid" id="product-container">
      
-        <div class="productcard">
-            <div class="imageblock">
-                <img src="img/product/Beautiful Ankara Styles For Children 2020 - African fashion 1.png" alt="">
-            </div>
-            <div class="titleblock">Blouse and belted skirt</div>
-            <div class="specs">
-                <div class="spectvalue">
-                    <div class="spectitle">
-                        Gene:
-                    </div>
-                    <div class="specval">Female</div>
-                </div>
-                <div class="spectvalue">
-                    <div class="spectitle">
-                        Age:
-                    </div>
-                    <div class="specval">Ranges</div>
-                </div>
-            </div>
 
-            <div class="cart">
-                <div class="amount">N8.900.000 </div>
-                <div class="cartbox">
-                    <ion-icon name="cart-outline"></ion-icon>
-                </div>
+
+
+    </div>
+<div class="pageblock">
+    <div class="s"></div>
+    <div class="pagination"></div>
+</div>
+    
+</div>
+
+
+
+
+</div>
+
+<br>
+<br>
+<div class="banner">
+   <div class="sideone">
+    <div class="sideimgbo">
+        <img src="img/Mask group.png" alt="">
+    </div>
+
+
+   </div>
+
+   <div class="sidetwo">
+
+    <div class="sidetwocontent">
+        <div class="sidetwohead">
+            Trendy Styles..
+            <div>
+                Thousands styles More!
             </div>
         </div>
-
-        <div class="productcard">
-            <div class="imageblock">
-                <img src="img/product/Stylish Ankara short gown styles 1.png" alt="">
-            </div>
-            <div class="titleblock">Blouse and belted skirt</div>
-            <div class="specs">
-                <div class="spectvalue">
-                    <div class="spectitle">
-                        Gene:
-                    </div>
-                    <div class="specval">Female</div>
-                </div>
-                <div class="spectvalue">
-                    <div class="spectitle">
-                        Age:
-                    </div>
-                    <div class="specval">Ranges</div>
-                </div>
-            </div>
-
-            <div class="cart">
-                <div class="amount">N8.900.000 </div>
-                <div class="cartbox">
-                    <ion-icon name="cart-outline"></ion-icon>
-                </div>
-            </div>
+        <div class="sidetwobody">
+            Having a pet means you have more joy, a new friend, a happy person who will always be with you to have fun. We have 200+ different pets that can meet your needs!
         </div>
-        
-
-        <div class="productcard">
-            <div class="imageblock">
-                <img src="img/product/1.png" alt="">
-            </div>
-            <div class="titleblock">Blouse and belted skirt</div>
-            <div class="specs">
-                <div class="spectvalue">
-                    <div class="spectitle">
-                        Gene:
-                    </div>
-                    <div class="specval">Female</div>
-                </div>
-                <div class="spectvalue">
-                    <div class="spectitle">
-                        Age:
-                    </div>
-                    <div class="specval">Ranges</div>
-                </div>
-            </div>
-
-            <div class="cart">
-                <div class="amount">N8.900.000 </div>
-                <div class="cartbox">
-                    <ion-icon name="cart-outline"></ion-icon>
-                </div>
-            </div>
-        </div>
-
-
-
-
-        <div class="productcard">
-            <div class="imageblock">
-                <img src="img/product/2.png" alt="">
-            </div>
-            <div class="titleblock">Blouse and belted skirt</div>
-            <div class="specs">
-                <div class="spectvalue">
-                    <div class="spectitle">
-                        Gene:
-                    </div>
-                    <div class="specval">Female</div>
-                </div>
-                <div class="spectvalue">
-                    <div class="spectitle">
-                        Age:
-                    </div>
-                    <div class="specval">Ranges</div>
-                </div>
-            </div>
-
-            <div class="cart">
-                <div class="amount">N8.900.000 </div>
-                <div class="cartbox">
-                    <ion-icon name="cart-outline"></ion-icon>
-                </div>
-            </div>
-        </div>
-
-        <div class="productcard">
-            <div class="imageblock">
-                <img src="img/product/4.png" alt="">
-            </div>
-            <div class="titleblock">Blouse and belted skirt</div>
-            <div class="specs">
-                <div class="spectvalue">
-                    <div class="spectitle">
-                        Gene:
-                    </div>
-                    <div class="specval">Female</div>
-                </div>
-                <div class="spectvalue">
-                    <div class="spectitle">
-                        Age:
-                    </div>
-                    <div class="specval">Ranges</div>
-                </div>
-            </div>
-
-            <div class="cart">
-                <div class="amount">N8.900.000 </div>
-                <div class="cartbox">
-                    <ion-icon name="cart-outline"></ion-icon>
-                </div>
-            </div>
-        </div>
-
-        <div class="productcard">
-            <div class="imageblock">
-                <img src="img/product/3.png" alt="">
-            </div>
-            <div class="titleblock">Blouse and belted skirt</div>
-            <div class="specs">
-                <div class="spectvalue">
-                    <div class="spectitle">
-                        Gene:
-                    </div>
-                    <div class="specval">Female</div>
-                </div>
-                <div class="spectvalue">
-                    <div class="spectitle">
-                        Age:
-                    </div>
-                    <div class="specval">Ranges</div>
-                </div>
-            </div>
-
-            <div class="cart">
-                <div class="amount">N8.900.000 </div>
-                <div class="cartbox">
-                    <ion-icon name="cart-outline"></ion-icon>
-                </div>
-            </div>
+        <div class="sidetwobtn">
+          <button class="getstarted"> Shop collections 
+            <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.0426 0.980486C11.0424 0.980447 11.0422 0.980373 11.042 0.980348L7.30289 0.312031C7.02278 0.261969 6.76444 0.450768 6.72588 0.733816C6.68733 1.01683 6.88317 1.28685 7.1633 1.33693L9.67369 1.7856L1.01744 8.07993C0.791694 8.24408 0.746741 8.56839 0.917034 8.80432C1.08733 9.04025 1.40836 9.09843 1.63411 8.93428L10.2903 2.63997L9.93289 5.17397C9.89301 5.45674 10.0876 5.72766 10.3676 5.77908C10.6476 5.83053 10.9068 5.64291 10.9467 5.3602L11.4791 1.5859C11.4791 1.58568 11.4791 1.58546 11.4792 1.58522C11.5187 1.30184 11.3224 1.03087 11.0426 0.980486Z" fill="white"/>
+            </svg>
+            </button> 
         </div>
     </div>
-</div>
+   </div> 
 </div>
 
+
+
+
+</div>
+<br>
+<br>
+<br>
+<div class="whatwedo">
+<div class="container">
+    <div class="whatwedobox">
+
+        <div class="slidinggrid">
+            <div class="slide">
+                <div class="slideicon">
+                    <div class="roundmg">
+                        <img src="img/icon/ic_twotone-shopping-cart.png" alt="">
+                    </div>
+                   
+                </div>
+                <div class="slidetext">
+                    <div class="slidehead">Shop for latest wears</div>
+                    <div class="slidebod">Lorem ipsum dolor sit amet consectetur. Quam libero viverra faucibus condimentum.</div>
+                </div>
+            </div>
+        
+            <div class="slide">
+                <div class="slideicon">
+                    <div class="roundmg se">
+                        <img src="img/icon/icon-park-twotone_tape-measure.png" alt="">
+                    </div>
+                  
+                </div>
+                <div class="slidetext">
+                    <div class="slidehead">Request for mesurment for a style</div>
+                    <div class="slidebod">Lorem ipsum dolor sit amet consectetur. Quam libero viverra faucibus condimentum.</div>
+                </div>
+            </div>
+</div>
+
+<div class="line"></div>
+
+<div class="slidinggrid">
+            <div class="slide">
+                <div class="slideicon">
+                   <div class="roundmg xa">
+                    <img src="img/icon/ant-design_shop-twotone.png" alt="">
+                   </div>
+                  
+                </div>
+                <div class="slidetext">
+                    <div class="slidehead">Sell yours wears</div>
+                    <div class="slidebod">Lorem ipsum dolor sit amet consectetur. Quam libero viverra faucibus condimentum.</div>
+                </div>
+            </div>
+
+
+            <div class="slide">
+                <div class="slideicon">
+                    <div class="roundmg gr">
+                        <img src="img/icon/iconamoon_delivery-free-duotone.png" alt="">
+                    </div>
+                 
+                </div>
+                <div class="slidetext">
+                    <div class="slidehead">Get your wears delivered to you</div>
+                    <div class="slidebod">Lorem ipsum dolor sit amet consectetur. Quam libero viverra faucibus condimentum.</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+    
 </div>
 </div>
 

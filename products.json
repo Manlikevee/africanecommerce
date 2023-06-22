@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Blouses and belted skirt",
+    "price": 200000,
+    "image": "img/product/Beautiful Ankara Styles For Children 2020 - African fashion 1.png",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  },
+  
+  {
+    "name": "Blouses and belted skirt",
+    "price": 200000,
+    "image": "img/product/Beautiful Ankara Styles For Children 2020 - African fashion 1.png",
+    "gender": "children",
+    "size": "medium",
+    "quality": "good"
+  },
+  
+  {
+    "name": "Blouse and belted skirt",
+    "price": 200000,
+    "image": "img/product/Stylish Ankara short gown styles 1.png",
+    "gender": "children",
+    "size": "medium",
+    "quality": "average"
+  },
+  {
+    "name": "Blouse and belted skirt",
+    "price": 15,
+    "image": "img/product/1.png",
+    "gender": "adult",
+    "size": "large",
+    "quality": "poor"
+  },
+  {
+    "name": "Blouse and belted skirt",
+    "price": 200000,
+    "image": "img/product/2.png",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  },
+  {
+    "name": "Product 5",
+    "price": 200000,
+    "image": "img/product/2.png",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  },
+  {
+    "name": "Product 6",
+    "price": 200000,
+    "image": "img/product/2.png",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  },
+  {
+    "name": "Product 7",
+    "price": 200000,
+    "image": "img/product/2.png",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  },
+  {
+    "name": "Product 8",
+    "price": 200000,
+    "image": "img/product/2.png",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  },
+  {
+    "name": "Product 9",
+    "price": 200000,
+    "image": "img/product/2.png",
+    "gender": "children",
+    "size": "small",
+    "quality": "good"
+  },
+  {
+    "name": "Product 10",
+    "price": 200000,
+    "image": "img/product/2.png",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  },
+  {
+    "name": "Product 11",
+    "price": 200000,
+    "image": "img/product/2.png",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  },
+  {
+    "name": "Product 12",
+    "price": 200000,
+    "image": "img/product/2.png",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  },
+  {
+    "name": "Product 13",
+    "price": 200000,
+    "image": "img/product/2.png",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  },
+  {
+    "name": "Product 14",
+    "price": 200000,
+    "image": "img/product/2.png",
+    "gender": "children",
+    "size": "large",
+    "quality": "good"
+  },
+  {
+    "name": "Product 15",
+    "price": 200000,
+    "image": "img/product/2.png",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  }
+]
