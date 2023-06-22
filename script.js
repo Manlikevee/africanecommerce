@@ -277,6 +277,7 @@ cart.appendChild(cartBox);
 
 // Create main container div
 const card = document.createElement('div');
+card.className = 'productcard';
 card.dataset.price = product.price;
 card.dataset.gender = product.gender;
 card.dataset.size = product.size;
