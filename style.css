@@ -423,7 +423,7 @@ text-align: center;
 
 
   .featuredstore{
-    margin-top: 90px;
+   padding-top: 90px;
   }
 
 .featuredstore h1 {
@@ -1034,7 +1034,35 @@ margin-bottom: 5px;
 }
 
 footer{
-    margin-bottom: 90px;
+    padding-bottom: 90px;
+}
+
+.productlink{
+    border-radius: 10px;
+background: #F8F8FF;
+display: flex;
+gap: 10px;
+padding: 20px;
+align-items: center;
+width: fit-content;
+justify-content: center;
+margin-bottom: -30px;
+}
+
+.productlink span{
+    display: flex;
+    align-items: center;
+width: fit-content;
+justify-content: center;
+    color: #3734A9;
+    color: #3734A9;
+font-size: 16px;
+font-family: Open Sans;
+font-weight: 700;
+line-height: 20px;
+}
+.canceled{
+    color: #BABABA !important;
 }
 .fashionaddress{
     color: var(--color-300, #7F848D);
