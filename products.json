@@ -1,5 +1,6 @@
 [
   {
+    "id" : 1,
     "name": "Blouses and belted skirt",
     "price": 200000,
     "image": "img/product/Beautiful Ankara Styles For Children 2020 - African fashion 1.png",
@@ -8,7 +9,179 @@
     "quality": "good"
   },
   
+{
+  "id" : 2,
+  "name": "Product 12",
+  "price": 200000,
+  "image": "https://i.pinimg.com/564x/51/c1/86/51c186b146399a1842203b744c28c49c.jpg",
+  "gender": "adult",
+  "size": "small",
+  "quality": "good"
+},
+
+{
+  "id" : 3,
+  "name": "Product 12",
+  "price": 200000,
+  "image": "https://i.pinimg.com/736x/23/e0/84/23e0842ecdd12c3ccda9305dd7480e82.jpg",
+  "gender": "adult",
+  "size": "small",
+  "quality": "good"
+},
+{
+  "id" : 4,
+  "name": "Product 12",
+  "price": 200000,
+  "image": "https://i.pinimg.com/736x/da/27/a1/da27a1748b11c2cc163a5cbe8b10f6bd.jpg",
+  "gender": "adult",
+  "size": "small",
+  "quality": "good"
+},
+{
+  "id" : 5,
+  "name": "Product 13",
+  "price": 200000,
+  "image": "https://i.pinimg.com/564x/c3/96/4f/c3964f1bb8fd57631d909f4385265de3.jpg",
+  "gender": "adult",
+  "size": "small",
+  "quality": "good"
+},
+{
+  "id" : 6,
+  "name": "Product 14",
+  "price": 200000,
+  "image": "https://i.pinimg.com/736x/1f/77/f3/1f77f39adc4068a0d3a8ef4d7956df89.jpg",
+  "gender": "children",
+  "size": "large",
+  "quality": "good"
+},
+{
+  "id" : 7,
+  "name": "Product 15",
+  "price": 200000,
+  "image": "https://i.pinimg.com/564x/d6/05/65/d60565121401317ef1c473c4e93cca7a.jpg",
+  "gender": "adult",
+  "size": "small",
+  "quality": "good"
+},
+
+
+
+{
+  "id" : 8,
+  "name": "Product 15",
+  "price": 200000,
+  "image": "https://i.pinimg.com/564x/77/ca/ac/77caac1a98b4d07334bd0ba3bd3aa973.jpg",
+  "gender": "adult",
+  "size": "small",
+  "quality": "good"
+},
+
+
+
   {
+    "id" : 9,
+    "name": "Blouse and belted skirt",
+    "price": 200000,
+    "image": "https://i.pinimg.com/564x/da/3b/5d/da3b5d2c9f81b9c59fd50cda69932b66.jpg",
+    "gender": "children",
+    "size": "medium",
+    "quality": "average"
+  },
+  {
+    "id" : 10,
+    "name": "Blouse and belted skirt",
+    "price": 200000,
+    "image": "https://i.pinimg.com/564x/a5/d3/29/a5d329bc7b479bf34c7b364cfe385adf.jpg",
+    "gender": "children",
+    "size": "medium",
+    "quality": "average"
+  },
+  {
+    "id" : 11,
+    "name": "Blouse and belted skirt",
+    "price": 15,
+    "image": "https://i.pinimg.com/564x/29/29/8a/29298a99792a9b721994cad19ce6117d.jpg",
+    "gender": "adult",
+    "size": "large",
+    "quality": "poor"
+  },
+
+  {
+    "id" : 12,
+    "name": "Blouse and belted skirt",
+    "price": 200000,
+    "image": "https://i.pinimg.com/564x/1f/a3/c1/1fa3c19b7183115ac78e6914f73a105f.jpg",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  },
+  {
+    "id" : 13,
+    "name": "Blouse and belted skirt",
+    "price": 200000,
+    "image": "https://i.pinimg.com/564x/f9/30/e2/f930e2f2d190cd1a7e42bebb30078d66.jpg",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  },
+  {
+    "id" : 14,
+    "name": "Product 5",
+    "price": 200000,
+    "image": "https://i.pinimg.com/736x/41/52/a9/4152a9fdb3d4484cce58cd1f5415cb58.jpg",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  },
+  {
+    "id" : 15,
+    "name": "Product 6",
+    "price": 200000,
+    "image": "https://i.pinimg.com/564x/0d/aa/e9/0daae99e1673ae2f7e6fc6762ab2e3f6.jpg",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  },
+  {
+    "id" : 16,
+    "name": "Product 7",
+    "price": 200000,
+    "image": "https://i.pinimg.com/564x/ff/66/bd/ff66bd0663c2b7818abfa6fe246c5abc.jpg",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  },
+  {
+    "id" : 17,
+    "name": "Product 8",
+    "price": 200000,
+    "image": "https://i.pinimg.com/564x/78/af/ba/78afbac512b474bc67a2b50bb172d787.jpg",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  },
+  {
+    "id" : 18,
+    "name": "Product 9",
+    "price": 200000,
+    "image": "https://i.pinimg.com/564x/4a/cd/38/4acd38da4025e42abb832f202ddfe35f.jpg",
+    "gender": "children",
+    "size": "small",
+    "quality": "good"
+  },
+  {
+    "id" : 19,
+    "name": "Product 10",
+    "price": 200000,
+    "image": "https://i.pinimg.com/736x/d8/7c/44/d87c443a3b2efc2b65cb2faf668e2aee.jpg",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  },
+  
+  {
+    "id" : 20,
     "name": "Blouses and belted skirt",
     "price": 200000,
     "image": "img/product/Beautiful Ankara Styles For Children 2020 - African fashion 1.png",
@@ -18,6 +191,7 @@
   },
   
   {
+    "id" : 21,
     "name": "Blouse and belted skirt",
     "price": 200000,
     "image": "img/product/Stylish Ankara short gown styles 1.png",
@@ -26,107 +200,130 @@
     "quality": "average"
   },
   {
+    "id" : 22,
     "name": "Blouse and belted skirt",
     "price": 15,
-    "image": "img/product/1.png",
+    "image": "https://i.pinimg.com/564x/1b/90/b6/1b90b603fdd9b98e92ed05260ca81c4b.jpg",
     "gender": "adult",
     "size": "large",
     "quality": "poor"
   },
   {
+    "id" : 23,
     "name": "Blouse and belted skirt",
     "price": 200000,
-    "image": "img/product/2.png",
+    "image": "https://i.pinimg.com/564x/37/15/38/371538e087e672187e77771cd3515e4c.jpg",
     "gender": "adult",
     "size": "small",
     "quality": "good"
   },
   {
+    "id" : 24,
     "name": "Product 5",
     "price": 200000,
-    "image": "img/product/2.png",
+    "image": "https://i.pinimg.com/564x/ff/01/bc/ff01bc9e7a5f1f25c0bd39f5d1d22b7a.jpg",
     "gender": "adult",
     "size": "small",
     "quality": "good"
   },
   {
+    "id" : 25,
     "name": "Product 6",
     "price": 200000,
-    "image": "img/product/2.png",
+    "image": "https://i.pinimg.com/736x/19/f9/0a/19f90a8a0fb78f83003262663e44c2cb.jpg",
     "gender": "adult",
     "size": "small",
     "quality": "good"
   },
   {
+    "id" : 26,
     "name": "Product 7",
     "price": 200000,
-    "image": "img/product/2.png",
+    "image": "https://i.pinimg.com/564x/f5/99/e7/f599e7f33337d22e95fd0659375a5db8.jpg",
     "gender": "adult",
     "size": "small",
     "quality": "good"
   },
   {
+    "id" : 27,
     "name": "Product 8",
     "price": 200000,
-    "image": "img/product/2.png",
+    "image": "https://i.pinimg.com/564x/ea/95/38/ea9538767bd87450688a9b4e45304088.jpg",
     "gender": "adult",
     "size": "small",
     "quality": "good"
   },
   {
+    "id" : 28,
     "name": "Product 9",
     "price": 200000,
-    "image": "img/product/2.png",
+    "image": "https://i.pinimg.com/564x/2e/63/b7/2e63b7a10c9a29516ee1e8f4716e9924.jpg",
     "gender": "children",
     "size": "small",
     "quality": "good"
   },
   {
+    "id" : 29,
     "name": "Product 10",
     "price": 200000,
-    "image": "img/product/2.png",
+    "image": "https://i.pinimg.com/564x/b4/c2/fe/b4c2fe214fa7e365db466a61df394ca8.jpg",
     "gender": "adult",
     "size": "small",
     "quality": "good"
   },
   {
+    "id" : 30,
     "name": "Product 11",
     "price": 200000,
-    "image": "img/product/2.png",
+    "image": "https://i.pinimg.com/564x/95/54/71/9554717787eae9f9ebf1e2bc3ec547c2.jpg",
     "gender": "adult",
     "size": "small",
     "quality": "good"
   },
   {
+    "id" : 31,
     "name": "Product 12",
     "price": 200000,
-    "image": "img/product/2.png",
+    "image": "https://i.pinimg.com/564x/56/fe/bf/56febfd7128bc0df516dc00da2345493.jpg",
     "gender": "adult",
     "size": "small",
     "quality": "good"
   },
   {
+    "id" : 32,
     "name": "Product 13",
     "price": 200000,
-    "image": "img/product/2.png",
+    "image": "https://i.pinimg.com/564x/c9/bd/ca/c9bdca15f374425014347e9410f5ab71.jpg",
     "gender": "adult",
     "size": "small",
     "quality": "good"
   },
   {
+    "id" : 33,
     "name": "Product 14",
     "price": 200000,
-    "image": "img/product/2.png",
+    "image": "https://i.pinimg.com/736x/9f/30/d8/9f30d80af38ed73b27a35f7af7b43978.jpg",
     "gender": "children",
     "size": "large",
     "quality": "good"
   },
   {
+    "id" : 34,
     "name": "Product 15",
     "price": 200000,
-    "image": "img/product/2.png",
+    "image": "https://i.pinimg.com/564x/70/59/47/7059474cd05bd7c57092e67b7413ecde.jpg",
+    "gender": "adult",
+    "size": "small",
+    "quality": "good"
+  },
+  {
+    "id" : 35,
+    "name": "Product 15",
+    "price": 200000,
+    "image": "https://i.pinimg.com/564x/61/c2/e2/61c2e25eb44f95806cbc44af8a0f8551.jpg",
     "gender": "adult",
     "size": "small",
     "quality": "good"
   }
 ]
+
